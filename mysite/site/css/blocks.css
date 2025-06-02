@@ -1,24 +1,37 @@
-/* General reset and body setup */
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Header styling */
+
 #header {
-    text-align: center;
-    padding: 10px;
-    background-color: #0a4b33;  /* DJ4E navigation color */
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0a4b33;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+#header p {
+    margin: 0;
 }
 
 #header a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 16px;
 }
 
-/* Box positioning and general styles */
 #one, #two, #three, #four {
     position: fixed;
     width: 25%;
@@ -27,7 +40,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Individual box colors and positions */
 #one {
     border: 5px solid blue;
     top: 0;
