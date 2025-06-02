@@ -1,0 +1,53 @@
+/* General reset and body setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+#header {
+    text-align: center;
+    padding: 10px;
+    background-color: #0a4b33;  /* DJ4E navigation color */
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Box positioning and general styles */
+#one, #two, #three, #four {
+    position: fixed;
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+/* Individual box colors and positions */
+#one {
+    border: 5px solid blue;
+    top: 0;
+    right: 0;
+}
+
+#two {
+    border: 5px solid green;
+    bottom: 0;
+    right: 0;
+}
+
+#three {
+    border: 5px solid orange;
+    top: 0;
+    left: 0;
+}
+
+#four {
+    border: 5px solid yellow;
+    bottom: 0;
+    left: 0;
+} 
